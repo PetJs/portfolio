@@ -1,6 +1,8 @@
+import Button from "@/components/Button";
 import CanvasLoader from "@/components/CanvasLoader";
 import Cube from "@/components/Cube";
 import HackerRoom from "@/components/HackerRoom";
+import HeroCam from "@/components/HeroCam";
 import ReactLogo from "@/components/ReactLogo";
 import Rings from "@/components/Rings";
 import Target from "@/components/Target";
@@ -68,14 +70,17 @@ const Hero = ()=>{
                 <Canvas className="w-full h-full">
                     <Suspense fallback={<CanvasLoader/>}>
                         <PerspectiveCamera makeDefault position={[0, 0, 20]}/>
-                        <HackerRoom 
-                            // scale={0.07} 
-                            // position={[0, 0, 0]} 
-                            // rotation={[0, -Math.PI / 2, 0]}
-                            position={sizes.deskPosition}
-                            rotation={[0, -Math.PI, 0]}
-                            scale={sizes.deskScale}
-                        />
+                        <HeroCam isMobile={isMobile}>
+                            <HackerRoom 
+                                // scale={0.07} 
+                                // position={[0, 0, 0]} 
+                                // rotation={[0, -Math.PI / 2, 0]}
+                                position={sizes.deskPosition}
+                                rotation={[0, -Math.PI, 0]}
+                                scale={sizes.deskScale}
+                            />
+                        </HeroCam>
+                        
                         <group>
                             <Target position={sizes.targetPosition}/>
                             <ReactLogo position={sizes.reactLogoPosition}/>
@@ -87,6 +92,13 @@ const Hero = ()=>{
                         <directionalLight position={[10,10,10]}  intensity={1.5}/>
                     </Suspense>
                 </Canvas>
+            </div>
+
+            {/* Button */}
+            <div className="absolute bottom-7 left-0 right-0 w-full z-10 sm:px-10 px-5">
+                <a href="#contact" className="w-fit">
+                    <Button name="Lets's Work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96"/>
+                </a>
             </div>
         </section>
     )
