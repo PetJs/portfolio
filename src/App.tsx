@@ -5,7 +5,7 @@ import Navbar from "./sections/Navbar";
 
 const App = () => {
   return(
-    <main className="max-w-7xl max-auto">
+    <main className="max-auto bg-black">
       <Navbar/>
       <Hero/>
     </main>
