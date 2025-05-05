@@ -36,7 +36,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="col-span-1 xl:row-span-3">
+                <div className="col-span-1 xl:row-span-4">
                     <div className="w-full h-full border border-[#1C1C21] bg-[#0E0E10] rounded-lg sm:p-7 p-4 flex flex-col gap-5">
                         <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
                             <Globe
@@ -63,9 +63,9 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="xl:col-span-2 xl:row-span-3">
+                <div className="xl:col-span-2 xl:row-span-3 ">
                     <div className="w-full h-full border border-[#1C1C21] bg-[#0E0E10] rounded-lg sm:p-7 p-4 flex flex-col gap-5">
-                        <img src="/assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
+                        <img src="/assets/grid3.png" alt="grid-3" className="w-full sm:h-[226px] h-fit object-contain" />
                         <div>
                             <p className="text-xl font-semibold mb-2 text-white font-generalsans">My Passion for Coding</p>
                             <p className="text-[#afb0b6] text-base font-generalsans">I love solving problems and building things through code. Coding isn't just my profession - it is my passion.</p>
