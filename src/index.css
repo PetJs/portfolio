@@ -2,6 +2,11 @@
 @import "tailwindcss";
 
 
+body {
+  background: #010103;
+  font-family: 'General Sans', sans-serif;
+}
+
 
 @theme {
   --font-generalsans: "General Sans", ui-sans-serif, system-ui, sans-serif;
