@@ -17,7 +17,7 @@ export default function CanvasLoader () {
             <span className="canvas-loader"/>
             <p style={{
                 fontSize: 14,
-                color: 'F1F1F1',
+                color: 'AFB0B6',
                 fontWeight: 800,
                 marginTop: 40
             }}>
