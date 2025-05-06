@@ -58,18 +58,18 @@ export const navLinks = [
   
 export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
-      subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      title: 'Movy - Movie Streaming Platform',
+      desc: 'Movy is a next-gen movie streaming platform that brings your favorite films and shows to life with a sleek, user-friendly interface and seamless playback experience.',
+      subdesc: 'Developed using Next.js 14, Tailwind CSS, TypeScript, Framer Motion, and NodeJs, Movy is built for high performance, scalability, and a smooth streaming experience across all devices.',
+      href: 'https://movy-frontend.vercel.app/',
       texture: '/textures/project/project1.mp4',
-      logo: '/assets/project-logo1.png',
+      logo: '/assets/favicon.ico',
       logoStyle: {
-        backgroundColor: '#2A1816',
-        border: '0.2px solid #36201D',
-        boxShadow: '0px 0px 60px 0px #AA3C304D',
+        backgroundColor: '#F3E8FF',
+        border: '0.2px solid #D8B4FE',
+        boxShadow: '0px 0px 60px 0px #C084FC4D',
       },
+
       spotlight: '/assets/spotlight1.png',
       tags: [
         {
@@ -132,11 +132,11 @@ export const myProjects = [
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'Save our Food ',
+      desc: 'An innovative platform designed to help users minimizes the amount of ingredient wastage after food has been prepared. It simplifies ingrdients amount and uses in food making, providing a seamless experience for users',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using React, TypeScript ,and Tailwind that enhance operational workflows.',
+      href: 'https://sof.vercel.app/',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
@@ -171,17 +171,16 @@ export const myProjects = [
       ],
     },
     {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-      subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+      title: 'Recipi - Online Recipe Platform',
+      desc: 'Recipi is a modern recipe discovery platform that helps users explore and manage their favorite meals with ease. It offers curated recipes, a random recipe generator, and detailed nutritional insights.',
+      subdesc: 'Built with React, TypeScript, React Query, and the Spoonacular API, Recipi delivers a fast and interactive cooking experience for food lovers of all kinds.' ,
+      href: 'https://recipi-puce.vercel.app/',
       texture: '/textures/project/project4.mp4',
-      logo: '/assets/project-logo4.png',
+      logo: '/assets/ramen.png', 
       logoStyle: {
-        backgroundColor: '#0E1F38',
-        border: '0.2px solid #0E2D58',
-        boxShadow: '0px 0px 60px 0px #2F67B64D',
+        backgroundColor: '#FFEDD5', 
+        border: '1px solid #FF7A00', 
+        boxShadow: '0px 0px 40px 0px rgba(255, 122, 0, 0.4)', 
       },
       spotlight: '/assets/spotlight4.png',
       tags: [
