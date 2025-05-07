@@ -50,15 +50,13 @@ const Contact = () => {
     }
 
     return (
-        <section className="sm:px-10 px-5 my-20">
-            <div className="relative min-h-screen flex items-center justify-center flex-col">
-                <img src="/assets/terminal.png" alt="terminal background" className="absolute inset-0 min-h-screen" />
-
-                <div className="max-w-xl relative z-10 sm:px-10 px-5 mt-12">
-                    <h3 className="sm:text-4xl text-3xl font-semibold text-gray_gradient">Let's Talk</h3>
+        <section className="sm:px-10 px-5 my-20 ">
+            <div className="flex items-center justify-center flex-col ">
+                <div className=" w-full max-w-md bg-[#0E0E10] border border-[#1C1C21] rounded-lg p-6 md:p-10">
+                    <h3 className="sm:text-4xl text-3xl font-semibold text-white">Let's Talk</h3>
                     <p className="text-lg text-[#AFB0B6]">Whether you're looking to build a new website, improve your existing platform, or build a unique project to life, I'm here to help.</p>
 
-                    <form ref={formRef} onSubmit={handleSubmit} className="mt-2 flex flex-col space-y-7">
+                    <form ref={formRef} onSubmit={handleSubmit} className="mb-6 flex flex-col space-y-7">
                         <label className="space-y-3">
                             <span className="text-lg text-[#AFB0B6]">Full Name</span>
                             <input 
@@ -67,7 +65,7 @@ const Contact = () => {
                                 value={form.name} 
                                 onChange={handleChange}
                                 required
-                                className=" w-full bg-black-300 px-5 py-2 min-h-14 rounded-lg placeholder:text-[#62646C] text-lg text-[#E4E4E6] shadow-[#0E0E10] shadow-2xl focus:outline-none"
+                                className=" w-full bg-[#1C1C21] px-5 py-2 min-h-14 rounded-lg placeholder:text-[#62646C] text-lg text-[#E4E4E6] shadow-[#0E0E10] shadow-2xl focus:outline-none"
                                 placeholder="Your Name"
                             />
                         </label>
@@ -79,7 +77,7 @@ const Contact = () => {
                                 value={form.email} 
                                 onChange={handleChange}
                                 required
-                                className=" w-full bg-black-300 px-5 py-2 min-h-14 rounded-lg placeholder:text-[#62646C] text-lg text-[#E4E4E6] shadow-[#0E0E10] shadow-2xl focus:outline-none"
+                                className=" w-full bg-[#1C1C21] px-5 py-2 min-h-14 rounded-lg placeholder:text-[#62646C] text-lg text-[#E4E4E6] shadow-[#0E0E10] shadow-2xl focus:outline-none"
                                 placeholder="@gmail.com"
                             />
                         </label>
@@ -91,12 +89,12 @@ const Contact = () => {
                                 onChange={handleChange}
                                 required
                                 rows={5}
-                                className=" w-full bg-black-300 px-5 py-2 min-h-14 rounded-lg placeholder:text-[#62646C] text-lg text-[#E4E4E6] shadow-[#0E0E10] shadow-2xl focus:outline-none"
+                                className=" w-full bg-[#1C1C21] px-5 py-2 min-h-14 rounded-lg placeholder:text-[#62646C] text-lg text-[#E4E4E6] shadow-[#0E0E10] shadow-2xl focus:outline-none"
                                 placeholder="Hi, I want to give you a job ..."
                             />
                         </label>
                         <button 
-                            className="bg-[#3A3A49] px-5 py-2 min-h-12 rounded-lg shadow-black-200 shadow-2xl flex justify-center items-center text-lg text-white gap-3" 
+                            className="bg-[#3A3A49] px-5 py-2 rounded-lg shadow-[#0E0E10] shadow-2xl flex justify-center items-center text-lg text-white gap-3 cursor-pointer hover:bg-opacity-90 transition" 
                             type="submit"
                             disabled={loading}
                         >
