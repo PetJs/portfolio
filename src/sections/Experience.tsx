@@ -40,7 +40,7 @@ const Experience = () => {
                                 >
                                     <div className="flex flex-col h-full justify-start items-center py-2">
                                         <div className="rounded-3xl w-16 h-16 p-2 bg-[#1A1A1A]">
-                                            <img src={item.icon} alt="logo" className="w-full h-full" />
+                                            <img src={item.icon} alt="logo" className="w-full h-full object-contain" />
                                         </div>
                                         <div className="flex-1 w-0.5 mt-4 h-full bg-[#1C1C21] group-hover:bg-[#3A3A49] group-last:hidden"/>
                                     </div>
